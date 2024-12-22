@@ -394,6 +394,14 @@
     [
       "2e3fa433-6d71-474f-959d-cbc4e3433184",
       "LCD"
+    ],
+    [
+      "cb4064af-6688-4c8e-9da5-c0b49219e68f",
+      "Boost"
+    ],
+    [
+      "05ff4022-8ca2-4080-8b94-de5c91ad56de",
+      "BMS"
     ]
   ],
   "text_variables": {}

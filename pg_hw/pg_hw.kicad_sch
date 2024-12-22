@@ -6,8 +6,46 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 238.76 43.18)
+		(size 19.05 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05ff4022-8ca2-4080-8b94-de5c91ad56de")
+		(property "Sheetname" "BMS"
+			(at 238.76 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMS.kicad_sch"
+			(at 238.76 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pg_hw"
+				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 158.75 40.64)
-		(size 38.1 19.05)
+		(size 19.05 16.51)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -27,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "LCD.kicad_sch"
-			(at 158.75 60.2746 0)
+			(at 158.75 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,6 +115,44 @@
 			(project "pg_hw"
 				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 40.64)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb4064af-6688-4c8e-9da5-c0b49219e68f")
+		(property "Sheetname" "Boost"
+			(at 199.39 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Boost.kicad_sch"
+			(at 199.39 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pg_hw"
+				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199"
+					(page "4")
 				)
 			)
 		)
