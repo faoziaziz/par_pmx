@@ -11,4 +11,6 @@
   (lib (name "SMAJ26CA")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/SMAJ26CA.kicad_sym")(options "")(descr ""))
   (lib (name "DCX124EK_7_F")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/DCX124EK_7_F.kicad_sym")(options "")(descr ""))
   (lib (name "LM3480IM3_3_3_NOPB")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/LM3480IM3_3_3_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "ul_TP4056")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/ul_TP4056.kicad_sym")(options "")(descr ""))
+  (lib (name "ul_MAX17048X-T10")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/ul_MAX17048X-T10.kicad_sym")(options "")(descr ""))
 )
