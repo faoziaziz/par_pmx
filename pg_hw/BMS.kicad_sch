@@ -11719,7 +11719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CSD25402Q3A"
+		(property "Footprint" "footprints:CSD25402Q3A"
 			(at 452.12 162.56 0)
 			(effects
 				(font
@@ -11946,7 +11946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 48.514 139.446 90)
 			(effects
 				(font
@@ -12218,7 +12218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 275.336 290.576 90)
 			(effects
 				(font
@@ -12420,7 +12420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 344.424 211.074 90)
 			(effects
 				(font
@@ -12695,7 +12695,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 210.82 220.98 0)
 			(effects
 				(font
@@ -12834,7 +12834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 385.826 241.554 90)
 			(effects
 				(font
@@ -13173,7 +13173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 97.79 102.87 0)
 			(effects
 				(font
@@ -13241,7 +13241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 475.234 164.084 90)
 			(effects
 				(font
@@ -13444,7 +13444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 462.026 235.966 90)
 			(effects
 				(font
@@ -13513,7 +13513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.354 139.446 90)
 			(effects
 				(font
@@ -13580,7 +13580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 242.316 206.756 90)
 			(effects
 				(font
@@ -13718,7 +13718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "POWERDI3333-8_3P3X3P3_DIO"
+		(property "Footprint" "footprints:POWERDI3333-8_3P3X3P3_DIO"
 			(at 86.36 133.35 0)
 			(effects
 				(font
@@ -13807,7 +13807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CSD17551Q3A:TRANS_CSD18543Q3A"
+		(property "Footprint" "footprints:DNH0008A"
 			(at 260.35 121.92 0)
 			(effects
 				(font
@@ -13906,7 +13906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23_ONS"
+		(property "Footprint" "footprints:SOT-23_ONS"
 			(at 401.32 248.92 0)
 			(effects
 				(font
@@ -14049,7 +14049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 349.25 258.318 90)
 			(effects
 				(font
@@ -14116,7 +14116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 19.05 137.16 0)
 			(effects
 				(font
@@ -14516,7 +14516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBZ0003A_N"
+		(property "Footprint" "footprints:DBZ0003A_N"
 			(at 393.7 344.17 0)
 			(effects
 				(font
@@ -14930,7 +14930,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 230.124 218.186 90)
 			(effects
 				(font
@@ -15065,7 +15065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CSD17551Q3A:TRANS_CSD18543Q3A"
+		(property "Footprint" "footprints:DNH0008A"
 			(at 331.47 110.49 0)
 			(effects
 				(font
@@ -15232,7 +15232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT26-DCX124_DIO"
+		(property "Footprint" "footprints:SOT26-DCX124_DIO"
 			(at 67.31 185.42 0)
 			(effects
 				(font
@@ -15451,7 +15451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 281.686 213.106 90)
 			(effects
 				(font
@@ -15521,7 +15521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.934 164.846 90)
 			(effects
 				(font
@@ -15721,7 +15721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.514 136.144 90)
 			(effects
 				(font
@@ -15791,7 +15791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 471.17 245.11 0)
 			(effects
 				(font
@@ -15999,7 +15999,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 320.04 372.11 0)
 			(effects
 				(font
@@ -16069,7 +16069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 355.346 245.364 90)
 			(effects
 				(font
@@ -16205,7 +16205,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 178.054 211.836 90)
 			(effects
 				(font
@@ -16273,7 +16273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23_ONS"
+		(property "Footprint" "footprints:SOT-23_ONS"
 			(at 78.74 213.36 0)
 			(effects
 				(font
@@ -16678,7 +16678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 166.624 251.206 90)
 			(effects
 				(font
@@ -16946,7 +16946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 230.124 193.294 90)
 			(effects
 				(font
@@ -17083,7 +17083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 254 205.74 0)
 			(effects
 				(font
@@ -17153,7 +17153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 199.644 276.606 90)
 			(effects
 				(font
@@ -17220,7 +17220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RSN0032B"
+		(property "Footprint" "footprints:RSN0032B"
 			(at 314.96 204.47 0)
 			(effects
 				(font
@@ -17520,7 +17520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 276.606 313.944 90)
 			(effects
 				(font
@@ -17658,7 +17658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 479.806 235.966 90)
 			(effects
 				(font
@@ -18133,7 +18133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 183.896 145.034 90)
 			(effects
 				(font
@@ -18339,7 +18339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 319.786 349.504 90)
 			(effects
 				(font
@@ -18475,7 +18475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 453.136 252.984 90)
 			(effects
 				(font
@@ -18610,7 +18610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CSD17551Q3A:TRANS_CSD18543Q3A"
+		(property "Footprint" "footprints:DNH0008A"
 			(at 212.09 119.38 0)
 			(effects
 				(font
@@ -18974,7 +18974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 275.336 218.186 90)
 			(effects
 				(font
@@ -19042,7 +19042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23_ONS"
+		(property "Footprint" "footprints:SOT-23_ONS"
 			(at 160.02 367.03 0)
 			(effects
 				(font
@@ -19184,7 +19184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CSD17551Q3A:TRANS_CSD18543Q3A"
+		(property "Footprint" "footprints:DNH0008A"
 			(at 403.86 110.49 0)
 			(effects
 				(font
@@ -19418,7 +19418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.454 155.956 90)
 			(effects
 				(font
@@ -19486,7 +19486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 156.21 262.89 0)
 			(effects
 				(font
@@ -19697,7 +19697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 463.55 217.17 0)
 			(effects
 				(font
@@ -19836,7 +19836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 483.616 181.864 90)
 			(effects
 				(font
@@ -20104,7 +20104,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 239.014 219.456 90)
 			(effects
 				(font
@@ -20174,7 +20174,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 200.914 210.566 90)
 			(effects
 				(font
@@ -20310,7 +20310,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.454 155.956 90)
 			(effects
 				(font
@@ -20380,7 +20380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 478.79 251.46 0)
 			(effects
 				(font
@@ -20648,7 +20648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 156.21 283.21 0)
 			(effects
 				(font
@@ -20722,7 +20722,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 207.01 307.34 0)
 			(effects
 				(font
@@ -20794,7 +20794,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.504 153.416 90)
 			(effects
 				(font
@@ -20931,7 +20931,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 479.806 241.046 90)
 			(effects
 				(font
@@ -21068,7 +21068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.196 145.034 90)
 			(effects
 				(font
@@ -21208,7 +21208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 397.256 256.794 90)
 			(effects
 				(font
@@ -21278,7 +21278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 470.916 181.864 90)
 			(effects
 				(font
@@ -21824,7 +21824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "POWERDI3333-8_3P3X3P3_DIO"
+		(property "Footprint" "footprints:POWERDI3333-8_3P3X3P3_DIO"
 			(at 107.95 133.35 0)
 			(effects
 				(font
@@ -22049,7 +22049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 198.12 147.32 0)
 			(effects
 				(font
@@ -22255,7 +22255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 49.53 135.89 0)
 			(effects
 				(font
@@ -22322,7 +22322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 237.744 296.926 90)
 			(effects
 				(font
@@ -22391,7 +22391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 56.134 171.196 90)
 			(effects
 				(font
@@ -22461,7 +22461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 202.946 332.994 90)
 			(effects
 				(font
