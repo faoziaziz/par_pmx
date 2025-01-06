@@ -13,4 +13,5 @@
   (lib (name "LM3480IM3_3_3_NOPB")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/LM3480IM3_3_3_NOPB.kicad_sym")(options "")(descr ""))
   (lib (name "ul_TP4056")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/ul_TP4056.kicad_sym")(options "")(descr ""))
   (lib (name "ul_MAX17048X-T10")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/ul_MAX17048X-T10.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ27441DRZR_G1A")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/BQ27441DRZR_G1A.kicad_sym")(options "")(descr ""))
 )
