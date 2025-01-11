@@ -14,4 +14,6 @@
   (lib (name "ul_TP4056")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/ul_TP4056.kicad_sym")(options "")(descr ""))
   (lib (name "ul_MAX17048X-T10")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/ul_MAX17048X-T10.kicad_sym")(options "")(descr ""))
   (lib (name "BQ27441DRZR_G1A")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/BQ27441DRZR_G1A.kicad_sym")(options "")(descr ""))
+  (lib (name "FS8205A")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/FS8205A.kicad_sym")(options "")(descr ""))
+  (lib (name "TTP")(type "KiCad")(uri "${KIPRJMOD}/TTP.kicad_sym")(options "")(descr ""))
 )
