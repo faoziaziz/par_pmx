@@ -1116,12 +1116,6 @@
 		(uuid "1a7776f1-7d6f-40b9-b309-ce9dc73ff1d8")
 	)
 	(junction
-		(at 83.82 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "296fa21f-8394-435e-ab3a-84bc4157f8ea")
-	)
-	(junction
 		(at 168.91 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1251,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 83.82 90.17)
+			(xy 83.82 82.55) (xy 83.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1338,16 +1332,6 @@
 			(type default)
 		)
 		(uuid "602ef5c7-e09c-4d06-9974-7653e5e17c78")
-	)
-	(wire
-		(pts
-			(xy 83.82 82.55) (xy 83.82 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6040de23-cee6-497f-b59c-a679b20a08a1")
 	)
 	(wire
 		(pts
@@ -1451,16 +1435,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 86.36 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b341fcdb-6e4c-4809-b085-e6e6fdc423a8")
-	)
-	(wire
-		(pts
 			(xy 168.91 81.28) (xy 168.91 86.36)
 		)
 		(stroke
@@ -1539,17 +1513,6 @@
 			(justify left bottom)
 		)
 		(uuid "1a5ad154-facf-4f58-a688-96f299e69a13")
-	)
-	(label "PACKP"
-		(at 86.36 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "546cfbaa-fa93-46ff-b97f-c1ab3355fc72")
 	)
 	(label "BIN"
 		(at 118.11 86.36 0)
