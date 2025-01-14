@@ -329,120 +329,6 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint_Flag"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 3.429 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Flag"
-				(at 3.302 4.191 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point (alternative flag-style design)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_Flag_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.889 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.889 2.794)
-					(end 5.842 0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TestPoint_Flag_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x40"
 			(pin_names
 				(offset 1.016) hide)
@@ -1941,6 +1827,87 @@
 				)
 			)
 		)
+		(symbol "TTP:TouchPad"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TO"
+				(at -0.762 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Touch Pad"
+				(at -0.762 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TouchPad_0_1"
+				(rectangle
+					(start -6.35 2.54)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TouchPad_1_1"
+				(pin input line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "touch"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TTP:ttp233"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2680,16 +2647,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 62.23) (xy 106.68 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08dc5713-39aa-4638-81ed-d30f13545356")
-	)
-	(wire
-		(pts
 			(xy 229.87 67.31) (xy 233.68 67.31)
 		)
 		(stroke
@@ -2747,6 +2704,16 @@
 			(type default)
 		)
 		(uuid "1307e480-e140-4b10-a613-82bf9ffd38eb")
+	)
+	(wire
+		(pts
+			(xy 179.07 57.15) (xy 189.23 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143891b1-c740-40ac-8535-c979b310512b")
 	)
 	(wire
 		(pts
@@ -2930,13 +2897,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 57.15) (xy 189.23 57.15)
+			(xy 77.47 62.23) (xy 106.68 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "399475cf-0452-42dc-a768-189cb5e67f74")
+		(uuid "3a7b3b4d-7328-4102-8238-11498583b7c6")
 	)
 	(wire
 		(pts
@@ -3037,16 +3004,6 @@
 			(type default)
 		)
 		(uuid "4e5ad27d-e05e-49b3-b20b-78ab8d19e1e7")
-	)
-	(wire
-		(pts
-			(xy 179.07 114.3) (xy 185.42 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e8441bf-4d30-44d6-8bdd-117936fb372c")
 	)
 	(wire
 		(pts
@@ -3357,6 +3314,16 @@
 			(type default)
 		)
 		(uuid "aaf6e733-9a59-400a-9323-5d9c32ed0696")
+	)
+	(wire
+		(pts
+			(xy 168.91 114.3) (xy 185.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac31f150-d2b3-484e-99f2-8bd32ebed1fd")
 	)
 	(wire
 		(pts
@@ -5106,6 +5073,71 @@
 		)
 	)
 	(symbol
+		(lib_id "TTP:TouchPad")
+		(at 69.85 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41036380-021b-417a-9a55-0b0a873b0f92")
+		(property "Reference" "TO1"
+			(at 69.215 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Touch Pad"
+			(at 69.215 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TouchPad_10.0x10.0:TouchPad"
+			(at 69.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12e92299-7beb-42fd-b984-e20f557b5ef0")
+		)
+		(instances
+			(project "pg_hw"
+				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199/2e3fa433-6d71-474f-959d-cbc4e3433184"
+					(reference "TO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 163.83 180)
 		(unit 1)
@@ -5319,73 +5351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Flag")
-		(at 85.09 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4dd1a1c7-88d5-4edc-ac94-2abec18f5305")
-		(property "Reference" "TP1"
-			(at 86.36 62.3569 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 86.36 64.8969 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative flag-style design)"
-			(at 85.09 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9e9ac41-cfed-4db7-b4c7-96468336b809")
-		)
-		(instances
-			(project ""
-				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199/2e3fa433-6d71-474f-959d-cbc4e3433184"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 238.76 44.45 0)
 		(unit 1)
@@ -5587,138 +5552,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Flag")
-		(at 179.07 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "684af6d5-7257-4756-931d-11ca240b5f02")
-		(property "Reference" "TP3"
-			(at 173.482 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 169.418 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative flag-style design)"
-			(at 179.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "710dd13b-f064-4301-a601-e8d4a85c9758")
-		)
-		(instances
-			(project "pg_hw"
-				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199/2e3fa433-6d71-474f-959d-cbc4e3433184"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Flag")
-		(at 181.61 57.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68969892-a954-4372-9c25-ec39f6c21cf9")
-		(property "Reference" "TP4"
-			(at 182.88 57.2769 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 172.466 62.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative flag-style design)"
-			(at 181.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4907f243-764b-4f59-a5e1-128bd059a69a")
-		)
-		(instances
-			(project "pg_hw"
-				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199/2e3fa433-6d71-474f-959d-cbc4e3433184"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 189.23 60.96 0)
 		(unit 1)
@@ -5855,6 +5688,71 @@
 		)
 	)
 	(symbol
+		(lib_id "TTP:TouchPad")
+		(at 30.48 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a8a67c4-8a93-4cdf-8ae4-835ec0622abd")
+		(property "Reference" "TO2"
+			(at 29.845 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Touch Pad"
+			(at 29.845 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TouchPad_10.0x10.0:TouchPad"
+			(at 30.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a06fd726-5803-4e4d-9cb9-3c7723f02475")
+		)
+		(instances
+			(project "pg_hw"
+				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199/2e3fa433-6d71-474f-959d-cbc4e3433184"
+					(reference "TO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 36.83 170.18 180)
 		(unit 1)
@@ -5915,6 +5813,71 @@
 			(project ""
 				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199/2e3fa433-6d71-474f-959d-cbc4e3433184"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TTP:TouchPad")
+		(at 171.45 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9357c63e-96b4-4761-9084-10fd7478a6c7")
+		(property "Reference" "TO4"
+			(at 170.815 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Touch Pad"
+			(at 170.815 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TouchPad_10.0x10.0:TouchPad"
+			(at 171.45 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c55ec71a-cb94-4fb1-a7ab-cc06c6a2f5b8")
+		)
+		(instances
+			(project "pg_hw"
+				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199/2e3fa433-6d71-474f-959d-cbc4e3433184"
+					(reference "TO4")
 					(unit 1)
 				)
 			)
@@ -6117,73 +6080,6 @@
 			(project "pg_hw"
 				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199/2e3fa433-6d71-474f-959d-cbc4e3433184"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Flag")
-		(at 38.1 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b90f3958-31de-4b31-9947-81564b1f9491")
-		(property "Reference" "TP2"
-			(at 39.37 106.8069 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 39.37 109.3469 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative flag-style design)"
-			(at 38.1 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cd47041-58ca-4d79-be4f-1bdd5a90ab6a")
-		)
-		(instances
-			(project "pg_hw"
-				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199/2e3fa433-6d71-474f-959d-cbc4e3433184"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6800,6 +6696,71 @@
 			(project "pg_hw"
 				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199/2e3fa433-6d71-474f-959d-cbc4e3433184"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TTP:TouchPad")
+		(at 161.29 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaea488b-5b22-4de1-986e-0d6a2c3f334e")
+		(property "Reference" "TO3"
+			(at 160.655 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Touch Pad"
+			(at 160.655 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TouchPad_10.0x10.0:TouchPad"
+			(at 161.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21f1c520-af6d-4daf-8471-7a7730ecc77b")
+		)
+		(instances
+			(project "pg_hw"
+				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199/2e3fa433-6d71-474f-959d-cbc4e3433184"
+					(reference "TO3")
 					(unit 1)
 				)
 			)
