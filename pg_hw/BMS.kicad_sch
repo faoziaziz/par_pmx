@@ -1582,6 +1582,423 @@
 				)
 			)
 		)
+		(symbol "CD4043BDR:CD4043BDR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 30.48 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CD4043BDR"
+				(at 30.48 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "D16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CD4043BDR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CD4043BDR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D16 D16-M D16-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CD4043BDR_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -22.86) (xy 53.34 -22.86)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -22.86)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 -22.86) (xy 53.34 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "Q4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 60.96 -15.24 180)
+					(length 7.62)
+					(name "Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 60.96 -12.7 180)
+					(length 7.62)
+					(name "R3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 60.96 -10.16 180)
+					(length 7.62)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 60.96 -7.62 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 60.96 -5.08 180)
+					(length 7.62)
+					(name "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 60.96 -2.54 180)
+					(length 7.62)
+					(name "R4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 60.96 0 180)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "ENABLE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 60.96 -17.78 180)
+					(length 7.62)
+					(name "Q2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Battery"
 			(pin_numbers hide)
 >>>>>>> Stashed changes
@@ -6306,6 +6723,7 @@
 			)
 		)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(symbol "power:GNDPWR"
 			(power)
 			(pin_numbers hide)
@@ -6320,6 +6738,8 @@
 					(font
 						(size 1.27 1.27)
 =======
+=======
+>>>>>>> Stashed changes
 		(symbol "ul_SN74HC08DR:SN74HC08DR"
 			(pin_names
 				(offset 0.254)
@@ -6349,11 +6769,15 @@
 					(font
 						(size 1.27 1.27)
 						(italic yes)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 					)
 					(hide yes)
 				)
 			)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			(property "Value" "GNDPWR"
 				(at 0 -3.302 0)
@@ -6369,17 +6793,23 @@
 					(font
 						(size 1.27 1.27)
 =======
+=======
+>>>>>>> Stashed changes
 			(property "Datasheet" "SN74HC08DR"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 					)
 					(hide yes)
 				)
 			)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			(property "Datasheet" ""
 				(at 0 -1.27 0)
@@ -6394,26 +6824,8 @@
 =======
 			(property "Description" ""
 >>>>>>> Stashed changes
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-<<<<<<< Updated upstream
-			(property "ki_keywords" "global ground"
 =======
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SN74HC08DR"
+			(property "Description" ""
 >>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
@@ -6423,6 +6835,34 @@
 					(hide yes)
 				)
 			)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+			(property "ki_keywords" "global ground"
+=======
+=======
+>>>>>>> Stashed changes
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SN74HC08DR"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			(symbol "GNDPWR_0_1"
 				(polyline
@@ -6516,6 +6956,8 @@
 					(length 0)
 					(name "~"
 =======
+=======
+>>>>>>> Stashed changes
 			(property "ki_fp_filters" "D14 D14-M D14-L"
 				(at 0 0 0)
 				(effects
@@ -6578,6 +7020,9 @@
 					(at 0 0 0)
 					(length 7.62)
 					(name "1A"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 						(effects
 							(font
@@ -6594,7 +7039,10 @@
 					)
 				)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 				(pin input line
 					(at 55.88 -10.16 180)
 					(length 7.62)
@@ -6829,13 +7277,20 @@
 						)
 					)
 				)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			)
 		)
 	)
 	(junction
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(at 44.45 135.89)
+=======
+		(at 110.49 52.07)
+>>>>>>> Stashed changes
 =======
 		(at 110.49 52.07)
 >>>>>>> Stashed changes
@@ -6845,7 +7300,11 @@
 	)
 	(junction
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(at 339.09 212.09)
+=======
+		(at 110.49 54.61)
+>>>>>>> Stashed changes
 =======
 		(at 110.49 54.61)
 >>>>>>> Stashed changes
@@ -6855,7 +7314,11 @@
 	)
 	(junction
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(at 482.6 172.72)
+=======
+		(at 25.4 41.91)
+>>>>>>> Stashed changes
 =======
 		(at 25.4 41.91)
 >>>>>>> Stashed changes
@@ -6865,7 +7328,11 @@
 	)
 	(junction
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(at 262.89 139.7)
+=======
+		(at 110.49 41.91)
+>>>>>>> Stashed changes
 =======
 		(at 110.49 41.91)
 >>>>>>> Stashed changes
@@ -6875,7 +7342,10 @@
 	)
 	(junction
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(at 237.49 137.16)
+=======
+		(at 50.8 114.3)
 =======
 		(at 50.8 114.3)
 		(diameter 0)
@@ -6887,13 +7357,28 @@
 >>>>>>> Stashed changes
 		(diameter 0)
 		(color 0 0 0 0)
+		(uuid "b6d658c9-066c-4818-bd36-f9585df03884")
+	)
+	(junction
+<<<<<<< Updated upstream
+		(at 107.95 69.85)
+>>>>>>> Stashed changes
+=======
+		(at 25.4 55.88)
+>>>>>>> Stashed changes
+		(diameter 0)
+		(color 0 0 0 0)
 		(uuid "0736fe5d-292d-4530-a0c8-85c9e4be3c76")
 	)
 	(junction
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(at 260.35 139.7)
 =======
 		(at 25.4 55.88)
+>>>>>>> Stashed changes
+=======
+		(at 110.49 59.69)
 >>>>>>> Stashed changes
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7781,6 +8266,8 @@
 	(wire
 		(pts
 			(xy 52.07 124.46) (xy 52.07 128.27)
+<<<<<<< Updated upstream
+=======
 		)
 		(stroke
 			(width 0)
@@ -7797,14 +8284,33 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "05fd9d57-a72d-4803-b704-847afb66c69a")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+			(xy 110.49 38.1) (xy 110.49 41.91)
+>>>>>>> Stashed changes
+=======
+			(xy 105.41 41.91) (xy 110.49 41.91)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "003c4dd3-3dfe-42d0-9972-ec74f3a4d90e")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(xy 107.95 135.89) (xy 107.95 138.43)
 =======
 			(xy 105.41 41.91) (xy 110.49 41.91)
+>>>>>>> Stashed changes
+=======
+			(xy 119.38 38.1) (xy 110.49 38.1)
 >>>>>>> Stashed changes
 		)
 		(stroke
@@ -7816,9 +8322,13 @@
 	(wire
 		(pts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(xy 288.29 208.28) (xy 288.29 212.09)
 =======
 			(xy 119.38 38.1) (xy 110.49 38.1)
+>>>>>>> Stashed changes
+=======
+			(xy 34.29 17.78) (xy 24.13 17.78)
 >>>>>>> Stashed changes
 		)
 		(stroke
@@ -7830,21 +8340,11 @@
 	(wire
 		(pts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(xy 486.41 234.95) (xy 491.49 234.95)
 =======
 			(xy 34.29 17.78) (xy 24.13 17.78)
 >>>>>>> Stashed changes
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00f367ae-fc27-40ba-aaf1-42b7104357d0")
-	)
-	(wire
-		(pts
-<<<<<<< Updated upstream
-			(xy 218.44 149.86) (xy 222.25 149.86)
 =======
 			(xy 110.49 144.78) (xy 115.57 144.78)
 		)
@@ -7903,12 +8403,15 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "01de855e-3638-4ebf-99d0-ea53d82bb59e")
+		(uuid "00f367ae-fc27-40ba-aaf1-42b7104357d0")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 289.56 152.4) (xy 289.56 153.67)
+<<<<<<< Updated upstream
+			(xy 218.44 149.86) (xy 222.25 149.86)
+=======
+			(xy 110.49 144.78) (xy 115.57 144.78)
 =======
 			(xy 109.22 116.84) (xy 142.24 116.84)
 		)
@@ -7927,12 +8430,12 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "01e476d8-5ac6-4396-8972-7d41a2a14b08")
+		(uuid "24e9f054-d01a-4d02-be79-0c67bd82f1b9")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 365.76 256.54) (xy 375.92 256.54)
+			(xy 44.45 111.76) (xy 53.34 111.76)
 =======
 			(xy 69.85 46.99) (xy 54.61 46.99)
 >>>>>>> Stashed changes
@@ -7941,12 +8444,12 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "02924d73-c3ff-4d4e-a519-0867be3feb8a")
+		(uuid "25edc0c1-2ec3-4df0-9a56-f0a52e6f81ec")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 358.14 139.7) (xy 359.41 139.7)
+			(xy 29.21 91.44) (xy 134.62 91.44)
 =======
 			(xy 115.57 69.85) (xy 107.95 69.85)
 >>>>>>> Stashed changes
@@ -7955,12 +8458,12 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "02c9fda0-1f32-41c6-a62e-58e6a73ed26f")
+		(uuid "2ec039f5-2d96-4fc0-9787-3ff5ea0a3232")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 96.52 157.48) (xy 96.52 158.75)
+			(xy 134.62 111.76) (xy 109.22 111.76)
 =======
 			(xy 44.45 119.38) (xy 53.34 119.38)
 		)
@@ -7979,12 +8482,12 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "03dbfcc8-ca8b-44c5-bab2-ad908f9c96fc")
+		(uuid "2f744a7e-92f2-4026-b262-e896f1f2363f")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 406.4 128.27) (xy 408.94 128.27)
+			(xy 43.18 138.43) (xy 43.18 147.32)
 =======
 			(xy 25.4 53.34) (xy 25.4 55.88)
 >>>>>>> Stashed changes
@@ -7993,12 +8496,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "04114ff6-a768-4182-823e-5d016f5fd0b4")
+		(uuid "30228f2e-1da4-485f-a593-01135e2158be")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 57.15 161.29) (xy 57.15 167.64)
+			(xy 22.86 55.88) (xy 25.4 55.88)
+>>>>>>> Stashed changes
 =======
 			(xy 110.49 59.69) (xy 115.57 59.69)
 >>>>>>> Stashed changes
@@ -8007,12 +8511,15 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "045eba10-f20e-4f6c-a78b-cce96baa0685")
+		(uuid "01de855e-3638-4ebf-99d0-ea53d82bb59e")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 342.9 143.51) (xy 335.28 143.51)
+<<<<<<< Updated upstream
+			(xy 289.56 152.4) (xy 289.56 153.67)
+=======
+			(xy 109.22 116.84) (xy 142.24 116.84)
 =======
 			(xy 25.4 41.91) (xy 25.4 45.72)
 >>>>>>> Stashed changes
@@ -8021,12 +8528,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "045eea31-c836-4f1c-a3dc-22a3c55161f6")
+		(uuid "35841e25-d54f-4ed8-9d54-1df5780b9a2d")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 483.87 240.03) (xy 486.41 240.03)
+			(xy 110.49 54.61) (xy 127 54.61)
+>>>>>>> Stashed changes
 =======
 			(xy 110.49 52.07) (xy 105.41 52.07)
 >>>>>>> Stashed changes
@@ -8035,12 +8543,16 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "04a49994-0697-4144-9aad-11287f19048f")
+		(uuid "01e476d8-5ac6-4396-8972-7d41a2a14b08")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 96.52 148.59) (xy 96.52 149.86)
+<<<<<<< Updated upstream
+			(xy 365.76 256.54) (xy 375.92 256.54)
+=======
+			(xy 69.85 46.99) (xy 54.61 46.99)
+>>>>>>> Stashed changes
 =======
 			(xy 44.45 152.4) (xy 49.53 152.4)
 		)
@@ -8059,12 +8571,16 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0658da88-6858-488a-99e8-2902507be4a9")
+		(uuid "02924d73-c3ff-4d4e-a519-0867be3feb8a")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 77.47 152.4) (xy 77.47 146.05)
+<<<<<<< Updated upstream
+			(xy 358.14 139.7) (xy 359.41 139.7)
+=======
+			(xy 115.57 69.85) (xy 107.95 69.85)
+>>>>>>> Stashed changes
 =======
 			(xy 29.21 114.3) (xy 29.21 91.44)
 		)
@@ -8083,12 +8599,15 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "08143ba6-778e-48f2-ace6-bf74e549b1e0")
+		(uuid "02c9fda0-1f32-41c6-a62e-58e6a73ed26f")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 278.13 208.28) (xy 288.29 208.28)
+<<<<<<< Updated upstream
+			(xy 96.52 157.48) (xy 96.52 158.75)
+=======
+			(xy 44.45 119.38) (xy 53.34 119.38)
 =======
 			(xy 69.85 41.91) (xy 25.4 41.91)
 >>>>>>> Stashed changes
@@ -8097,12 +8616,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "091b22d8-0311-4b3d-9a5b-daf4bef096a7")
+		(uuid "4257338f-1103-49dd-af6f-0984a417a311")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 240.03 223.52) (xy 240.03 229.87)
+			(xy 25.4 55.88) (xy 25.4 63.5)
+>>>>>>> Stashed changes
 =======
 			(xy 21.59 41.91) (xy 25.4 41.91)
 >>>>>>> Stashed changes
@@ -8111,12 +8631,16 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0a09f893-2f9e-426c-aa0b-d4239d52dba1")
+		(uuid "03dbfcc8-ca8b-44c5-bab2-ad908f9c96fc")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 107.95 140.97) (xy 107.95 158.75)
+<<<<<<< Updated upstream
+			(xy 406.4 128.27) (xy 408.94 128.27)
+=======
+			(xy 25.4 53.34) (xy 25.4 55.88)
+>>>>>>> Stashed changes
 =======
 			(xy 69.85 49.53) (xy 53.34 49.53)
 >>>>>>> Stashed changes
@@ -8125,12 +8649,16 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0ad6f2ca-39bd-4e89-8283-c814699acbe2")
+		(uuid "04114ff6-a768-4182-823e-5d016f5fd0b4")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 452.12 259.08) (xy 452.12 267.97)
+<<<<<<< Updated upstream
+			(xy 57.15 161.29) (xy 57.15 167.64)
+=======
+			(xy 110.49 59.69) (xy 115.57 59.69)
+>>>>>>> Stashed changes
 =======
 			(xy 44.45 109.22) (xy 53.34 109.22)
 		)
@@ -8149,12 +8677,16 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0bc5622d-8390-42b2-945a-e4f33d531d36")
+		(uuid "045eba10-f20e-4f6c-a78b-cce96baa0685")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 204.47 149.86) (xy 204.47 152.4)
+<<<<<<< Updated upstream
+			(xy 342.9 143.51) (xy 335.28 143.51)
+=======
+			(xy 25.4 41.91) (xy 25.4 45.72)
+>>>>>>> Stashed changes
 =======
 			(xy 50.8 34.29) (xy 50.8 54.61)
 >>>>>>> Stashed changes
@@ -8163,12 +8695,16 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0c9d67f7-807d-490e-8b89-cd64661d6617")
+		(uuid "045eea31-c836-4f1c-a3dc-22a3c55161f6")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
-			(xy 237.49 137.16) (xy 240.03 137.16)
+<<<<<<< Updated upstream
+			(xy 483.87 240.03) (xy 486.41 240.03)
+=======
+			(xy 110.49 52.07) (xy 105.41 52.07)
+>>>>>>> Stashed changes
 =======
 			(xy 49.53 147.32) (xy 43.18 147.32)
 		)
@@ -8187,14 +8723,358 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "04a49994-0697-4144-9aad-11287f19048f")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+			(xy 96.52 148.59) (xy 96.52 149.86)
+=======
+			(xy 44.45 152.4) (xy 49.53 152.4)
+=======
+			(xy 105.41 69.85) (xy 107.95 69.85)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547aff9f-eefa-472a-8cca-6e9d4c7de465")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+			(xy 24.13 31.75) (xy 34.29 31.75)
+>>>>>>> Stashed changes
+=======
+			(xy 49.53 162.56) (xy 48.26 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4b3558-7958-4905-af60-3fa275f51584")
+	)
+	(wire
+		(pts
+			(xy 44.45 149.86) (xy 49.53 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9451bf-191c-4122-9c2e-478207949f02")
+	)
+	(wire
+		(pts
+			(xy 46.99 68.58) (xy 46.99 73.66)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0658da88-6858-488a-99e8-2902507be4a9")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+			(xy 77.47 152.4) (xy 77.47 146.05)
+=======
+			(xy 29.21 114.3) (xy 29.21 91.44)
+=======
+			(xy 46.99 59.69) (xy 46.99 60.96)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a5f10e-92e5-4ec2-b121-005a8f8571ea")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+			(xy 110.49 52.07) (xy 110.49 54.61)
+>>>>>>> Stashed changes
+=======
+			(xy 110.49 50.8) (xy 110.49 52.07)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08143ba6-778e-48f2-ace6-bf74e549b1e0")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+			(xy 278.13 208.28) (xy 288.29 208.28)
+=======
+			(xy 69.85 41.91) (xy 25.4 41.91)
+>>>>>>> Stashed changes
+=======
+			(xy 41.91 154.94) (xy 49.53 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904915be-88aa-4e91-89ad-fa6c78d0022c")
+	)
+	(wire
+		(pts
+			(xy 46.99 59.69) (xy 69.85 59.69)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091b22d8-0311-4b3d-9a5b-daf4bef096a7")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+			(xy 240.03 223.52) (xy 240.03 229.87)
+=======
+			(xy 21.59 41.91) (xy 25.4 41.91)
+>>>>>>> Stashed changes
+=======
+			(xy 107.95 69.85) (xy 107.95 72.39)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a09f893-2f9e-426c-aa0b-d4239d52dba1")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+			(xy 107.95 140.97) (xy 107.95 158.75)
+=======
+			(xy 69.85 49.53) (xy 53.34 49.53)
+>>>>>>> Stashed changes
+=======
+			(xy 53.34 114.3) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a137908c-a381-4445-858b-204ed1a85b68")
+	)
+	(wire
+		(pts
+			(xy 50.8 114.3) (xy 50.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a841b30e-c2bf-44b4-9bda-5f0f42da0947")
+	)
+	(wire
+		(pts
+			(xy 48.26 121.92) (xy 53.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab14d8bf-0a94-4e47-ae54-1ec43185115f")
+	)
+	(wire
+		(pts
+			(xy 48.26 162.56) (xy 48.26 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b3fa66-935f-49a4-a9c9-f7354481ac7e")
+	)
+	(wire
+		(pts
+			(xy 110.49 54.61) (xy 110.49 59.69)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad6f2ca-39bd-4e89-8283-c814699acbe2")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+			(xy 452.12 259.08) (xy 452.12 267.97)
+=======
+			(xy 44.45 109.22) (xy 53.34 109.22)
+=======
+			(xy 50.8 114.3) (xy 29.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f01e75-5a6f-4999-afb6-da0837fc8c3f")
+	)
+	(wire
+		(pts
+			(xy 115.57 68.58) (xy 115.57 69.85)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ae7774-dae7-4523-8eb5-c6e738c6710b")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+			(xy 34.29 20.32) (xy 34.29 17.78)
+>>>>>>> Stashed changes
+=======
+			(xy 109.22 109.22) (xy 113.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3acf9e-6883-4602-84c8-208e7831a92c")
+	)
+	(wire
+		(pts
+			(xy 110.49 41.91) (xy 110.49 43.18)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc5622d-8390-42b2-945a-e4f33d531d36")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+			(xy 204.47 149.86) (xy 204.47 152.4)
+=======
+			(xy 50.8 34.29) (xy 50.8 54.61)
+>>>>>>> Stashed changes
+=======
+			(xy 50.8 20.32) (xy 50.8 26.67)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9d67f7-807d-490e-8b89-cd64661d6617")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+			(xy 237.49 137.16) (xy 240.03 137.16)
+=======
+			(xy 49.53 147.32) (xy 43.18 147.32)
+=======
+			(xy 109.22 114.3) (xy 113.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d989127e-e688-4143-8e31-c68fce9d7209")
+	)
+	(wire
+		(pts
+			(xy 134.62 91.44) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dedacf6e-aa95-4b31-b004-0dd1cadd0b5d")
+	)
+	(wire
+		(pts
+			(xy 34.29 31.75) (xy 34.29 30.48)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f101ae3-1c02-4abe-809f-3a562c2f8cb6")
+	)
+	(wire
+		(pts
+<<<<<<< Updated upstream
+			(xy 105.41 59.69) (xy 110.49 59.69)
+>>>>>>> Stashed changes
+=======
+			(xy 53.34 124.46) (xy 52.07 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb467375-363a-45c5-b962-18c1ad2ebacd")
+	)
+	(wire
+		(pts
+			(xy 50.8 116.84) (xy 53.34 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee767573-94e7-43e3-9e8c-50ca7e693533")
+	)
+	(wire
+		(pts
+			(xy 40.64 138.43) (xy 43.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0e84f5-92d3-487a-8db0-891340a39aa0")
+	)
+	(wire
+		(pts
+			(xy 50.8 54.61) (xy 69.85 54.61)
+>>>>>>> Stashed changes
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "0d029aab-beb3-41fd-82ed-71e7a32ed1cf")
 	)
 	(wire
 		(pts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(xy 55.88 138.43) (xy 55.88 140.97)
 =======
 			(xy 105.41 69.85) (xy 107.95 69.85)
+>>>>>>> Stashed changes
+=======
+			(xy 115.57 59.69) (xy 115.57 60.96)
 >>>>>>> Stashed changes
 		)
 		(stroke
@@ -12537,6 +13417,9 @@
 =======
 	(label "SDA_BMS"
 		(at 59.69 49.53 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
@@ -12553,6 +13436,9 @@
 =======
 	(label "BIN"
 		(at 59.69 59.69 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
@@ -12580,6 +13466,9 @@
 =======
 	(label "SCL_BMS"
 		(at 59.69 46.99 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
@@ -12596,6 +13485,9 @@
 =======
 	(label "PACKP"
 		(at 29.21 41.91 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
@@ -12612,6 +13504,9 @@
 =======
 	(label "GPOUT"
 		(at 59.69 54.61 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
@@ -12623,12 +13518,172 @@
 		(uuid "82b851f0-23be-4ac2-8bbb-413fd025bcec")
 	)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	(label "VIN"
 		(at 204.47 171.45 90)
 =======
 	(global_label "Q_touch_4"
 		(shape input)
 		(at 113.03 114.3 0)
+>>>>>>> Stashed changes
+=======
+	(global_label "Q_touch_4"
+		(shape input)
+		(at 113.03 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "110631ac-4513-48f6-9f50-4a5b1c070a52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.7517 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LATCH_A"
+		(shape input)
+		(at 44.45 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bcad6e7-97fb-4df7-bcdc-1b538ea4551b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.7238 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LATCH_A"
+		(shape input)
+		(at 142.24 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27a0682a-9f91-4ca2-b170-6f5831a96524")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.9662 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_RTL"
+		(shape input)
+		(at 40.64 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2886d34c-49cc-47b9-873f-537e6cf8f802")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.942 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_LATCH"
+		(shape input)
+		(at 113.03 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ac87737-6e6b-4d35-b205-74f0793b2ac4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.1752 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_LATCH"
+		(shape input)
+		(at 115.57 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ca40e11-05a3-417b-95c2-651a98f905ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.7152 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Q_touch_3"
+		(shape input)
+		(at 44.45 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35139ab8-94f5-416a-976a-a28c4bea93b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.7283 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSYS_BMS"
+		(shape input)
+		(at 127 54.61 0)
 >>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
@@ -12647,7 +13702,11 @@
 		)
 		(uuid "110631ac-4513-48f6-9f50-4a5b1c070a52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
 			(at 125.7517 114.3 0)
+=======
+			(at 139.4799 54.61 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12659,7 +13718,11 @@
 	)
 	(global_label "LATCH_A"
 		(shape input)
+<<<<<<< Updated upstream
 		(at 44.45 149.86 180)
+>>>>>>> Stashed changes
+=======
+		(at 24.13 17.78 180)
 >>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
@@ -12678,7 +13741,11 @@
 		)
 		(uuid "1bcad6e7-97fb-4df7-bcdc-1b538ea4551b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
 			(at 33.7238 149.86 0)
+=======
+			(at 16.2462 17.78 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12690,6 +13757,7 @@
 	)
 	(global_label "LATCH_A"
 		(shape input)
+<<<<<<< Updated upstream
 		(at 142.24 116.84 0)
 >>>>>>> Stashed changes
 		(fields_autoplaced yes)
@@ -12994,6 +14062,8 @@
 <<<<<<< Updated upstream
 		(at 176.53 260.35 0)
 =======
+=======
+>>>>>>> Stashed changes
 		(at 24.13 31.75 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13127,6 +14197,9 @@
 	(global_label "BAT+"
 		(shape input)
 		(at 119.38 38.1 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
@@ -13138,7 +14211,11 @@
 		(uuid "548bec8a-b703-40c6-9d81-59118cfdce25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 187.9818 260.35 0)
+=======
+			(at 127.2638 38.1 0)
+>>>>>>> Stashed changes
 =======
 			(at 127.2638 38.1 0)
 >>>>>>> Stashed changes
@@ -13152,9 +14229,14 @@
 		)
 	)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	(global_label "SDA_BMS"
 		(shape input)
 		(at 220.98 229.87 180)
+=======
+	(global_label "LATCH_B"
+		(shape input)
+		(at 44.45 152.4 180)
 =======
 	(global_label "LATCH_B"
 		(shape input)
@@ -13211,11 +14293,59 @@
 			)
 			(justify right)
 		)
+		(uuid "d50d4906-d5a7-4bbf-96bd-631099554b2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
+			(at 33.5424 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_LATCH"
+		(shape input)
+		(at 41.91 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbc101b3-23be-4940-b914-f47fccee7f48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.7648 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LP_I2C_SCL"
+		(shape input)
+		(at 54.61 46.99 180)
+>>>>>>> Stashed changes
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
 		(uuid "9c38685f-6373-4089-a6ab-2b833fd36bcf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 <<<<<<< Updated upstream
 			(at 209.5282 229.87 0)
 =======
+=======
+>>>>>>> Stashed changes
 			(at 40.7996 46.99 0)
 			(effects
 				(font
@@ -13239,6 +14369,9 @@
 		(uuid "f5d363e0-b9c3-44c6-bd71-c798e6247994")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 39.4691 49.53 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -13256,6 +14389,9 @@
 =======
 		(lib_id "power:+3V3")
 		(at 50.8 20.32 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
@@ -13271,6 +14407,9 @@
 		(uuid "07126601-0de3-4c7c-bf6b-45a31070efa7")
 		(property "Reference" "#PWR019"
 			(at 50.8 24.13 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -13284,6 +14423,9 @@
 =======
 		(property "Value" "+3V3"
 			(at 50.8 15.24 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -13293,8 +14435,11 @@
 		)
 		(property "Footprint" ""
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 320.04 143.51 0)
 =======
+=======
+>>>>>>> Stashed changes
 			(at 50.8 20.32 0)
 			(effects
 				(font
@@ -13579,6 +14724,9 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 26.3652 53.34 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -13589,7 +14737,11 @@
 		)
 		(property "Datasheet" "~"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 320.04 143.51 0)
+=======
+			(at 25.4 49.53 0)
+>>>>>>> Stashed changes
 =======
 			(at 25.4 49.53 0)
 >>>>>>> Stashed changes
@@ -13606,6 +14758,9 @@
 =======
 		(property "Description" "Unpolarized capacitor"
 			(at 25.4 49.53 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -13637,6 +14792,9 @@
 =======
 		(lib_id "Device:Battery")
 		(at 34.29 25.4 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
@@ -13858,6 +15016,9 @@
 		(uuid "5607500a-0523-4ad3-9d4f-867ff73ab53d")
 		(property "Reference" "U4"
 			(at 87.63 31.75 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -13871,6 +15032,9 @@
 =======
 		(property "Value" "BQ27441DRZR-G1A"
 			(at 87.63 34.29 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -13884,6 +15048,9 @@
 =======
 		(property "Footprint" "Copy of DRZ0012A"
 			(at 87.63 54.61 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -13899,6 +15066,9 @@
 =======
 		(property "Datasheet" "BQ27441DRZR-G1A"
 			(at 87.63 54.61 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -13910,7 +15080,11 @@
 		)
 		(property "Description" ""
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 452.12 162.56 0)
+=======
+			(at 87.63 54.61 0)
+>>>>>>> Stashed changes
 =======
 			(at 87.63 54.61 0)
 >>>>>>> Stashed changes
@@ -19537,6 +20711,9 @@
 =======
 		(lib_id "power:GND")
 		(at 107.95 72.39 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
@@ -19552,6 +20729,9 @@
 		(uuid "704cb578-01f4-46af-8d54-210e551f825e")
 		(property "Reference" "#PWR025"
 			(at 107.95 78.74 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -19565,6 +20745,9 @@
 =======
 		(property "Value" "GND"
 			(at 107.95 77.47 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -19574,7 +20757,11 @@
 		)
 		(property "Footprint" ""
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 358.14 138.7348 0)
+=======
+			(at 107.95 72.39 0)
+>>>>>>> Stashed changes
 =======
 			(at 107.95 72.39 0)
 >>>>>>> Stashed changes
@@ -19591,6 +20778,9 @@
 =======
 		(property "Datasheet" ""
 			(at 107.95 72.39 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -19605,6 +20795,9 @@
 =======
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 72.39 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -19631,7 +20824,11 @@
 	(symbol
 		(lib_id "power:GND")
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(at 269.24 205.74 90)
+=======
+		(at 46.99 73.66 0)
+>>>>>>> Stashed changes
 =======
 		(at 46.99 73.66 0)
 >>>>>>> Stashed changes
@@ -19649,6 +20846,9 @@
 		(uuid "a9122655-55fd-4995-88a0-d9bc47e148f3")
 		(property "Reference" "#PWR026"
 			(at 46.99 80.01 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -19659,7 +20859,11 @@
 		)
 		(property "Value" "GND"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 273.05 205.7399 90)
+=======
+			(at 46.99 78.74 0)
+>>>>>>> Stashed changes
 =======
 			(at 46.99 78.74 0)
 >>>>>>> Stashed changes
@@ -19672,7 +20876,11 @@
 		)
 		(property "Footprint" ""
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 269.24 205.74 0)
+=======
+			(at 46.99 73.66 0)
+>>>>>>> Stashed changes
 =======
 			(at 46.99 73.66 0)
 >>>>>>> Stashed changes
@@ -19685,7 +20893,11 @@
 		)
 		(property "Datasheet" ""
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 269.24 205.74 0)
+=======
+			(at 46.99 73.66 0)
+>>>>>>> Stashed changes
 =======
 			(at 46.99 73.66 0)
 >>>>>>> Stashed changes
@@ -19698,7 +20910,11 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 269.24 205.74 0)
+=======
+			(at 46.99 73.66 0)
+>>>>>>> Stashed changes
 =======
 			(at 46.99 73.66 0)
 >>>>>>> Stashed changes
@@ -20337,6 +21553,8 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 48.26 167.64 0)
+<<<<<<< Updated upstream
+=======
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20402,9 +21620,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-<<<<<<< Updated upstream
-		(at 182.88 144.78 0)
-=======
 		(at 50.8 30.48 0)
 >>>>>>> Stashed changes
 		(unit 1)
@@ -20414,6 +21629,115 @@
 		(dnp no)
 		(fields_autoplaced yes)
 <<<<<<< Updated upstream
+		(uuid "ab63d132-d63c-41b1-a3b8-1793bc175b00")
+		(property "Reference" "#PWR055"
+			(at 48.26 173.99 0)
+=======
+		(uuid "ad87dec4-cda7-431b-a3f9-ecfbd4e5510b")
+		(property "Reference" "R12"
+			(at 53.34 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 53.34 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 51.816 30.734 90)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+<<<<<<< Updated upstream
+		(property "Value" "GND"
+			(at 48.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 167.64 0)
+=======
+		(property "Datasheet" "~"
+			(at 50.8 30.48 0)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+<<<<<<< Updated upstream
+		(property "Datasheet" ""
+			(at 48.26 167.64 0)
+=======
+		(property "Description" "Resistor, US symbol"
+			(at 50.8 30.48 0)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74023de2-3a0b-4c5c-9cc3-37e7289a9f94")
+		)
+		(instances
+			(project "pg_hw"
+				(path "/98c2be80-c7ca-4fe5-b302-238a0f594199/05ff4022-8ca2-4080-8b94-de5c91ad56de"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+		(at 182.88 144.78 0)
+=======
+		(at 50.8 30.48 0)
+>>>>>>> Stashed changes
+=======
+		(at 110.49 46.99 0)
+>>>>>>> Stashed changes
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(uuid "8eb0379e-ccac-4a5f-b805-f67ff702bca0")
 		(property "Reference" "R26"
 			(at 185.42 143.5099 0)
@@ -20421,6 +21745,11 @@
 		(uuid "ad87dec4-cda7-431b-a3f9-ecfbd4e5510b")
 		(property "Reference" "R12"
 			(at 53.34 29.2099 0)
+>>>>>>> Stashed changes
+=======
+		(uuid "d02fa1aa-0188-42bc-a85a-a46a09de6de0")
+		(property "Reference" "R14"
+			(at 113.03 45.7199 0)
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -20430,11 +21759,16 @@
 			)
 		)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		(property "Value" "4.99"
 			(at 185.42 146.0499 0)
 =======
 		(property "Value" "10K"
 			(at 53.34 31.7499 0)
+>>>>>>> Stashed changes
+=======
+		(property "Value" "0.01"
+			(at 113.03 48.2599 0)
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -20448,7 +21782,11 @@
 			(at 183.896 145.034 90)
 =======
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+<<<<<<< Updated upstream
 			(at 51.816 30.734 90)
+>>>>>>> Stashed changes
+=======
+			(at 111.506 47.244 90)
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -20459,9 +21797,13 @@
 		)
 		(property "Datasheet" "~"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 182.88 144.78 0)
 =======
 			(at 50.8 30.48 0)
+>>>>>>> Stashed changes
+=======
+			(at 110.49 46.99 0)
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -20472,9 +21814,13 @@
 		)
 		(property "Description" "Resistor, US symbol"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 182.88 144.78 0)
 =======
 			(at 50.8 30.48 0)
+>>>>>>> Stashed changes
+=======
+			(at 110.49 46.99 0)
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -23678,6 +25024,9 @@
 =======
 		(lib_id "Device:R_US")
 		(at 46.99 64.77 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
@@ -23702,6 +25051,9 @@
 		(uuid "efaa493f-83a5-4eef-afaf-2398cdb51985")
 		(property "Reference" "R13"
 			(at 49.53 63.4999 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -23794,6 +25146,9 @@
 		)
 		(property "Footprint" ""
 			(at 25.4 63.5 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
@@ -23804,7 +25159,11 @@
 		)
 		(property "Datasheet" ""
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			(at 265.43 217.17 0)
+=======
+			(at 25.4 63.5 0)
+>>>>>>> Stashed changes
 =======
 			(at 25.4 63.5 0)
 >>>>>>> Stashed changes
@@ -23821,6 +25180,9 @@
 =======
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 63.5 0)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			(effects
 				(font
