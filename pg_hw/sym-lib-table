@@ -11,4 +11,14 @@
   (lib (name "SMAJ26CA")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/SMAJ26CA.kicad_sym")(options "")(descr ""))
   (lib (name "DCX124EK_7_F")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/DCX124EK_7_F.kicad_sym")(options "")(descr ""))
   (lib (name "LM3480IM3_3_3_NOPB")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/LM3480IM3_3_3_NOPB.kicad_sym")(options "")(descr ""))
+<<<<<<< Updated upstream
+=======
+  (lib (name "ul_TP4056")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/ul_TP4056.kicad_sym")(options "")(descr ""))
+  (lib (name "ul_MAX17048X-T10")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/ul_MAX17048X-T10.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ27441DRZR_G1A")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/BQ27441DRZR_G1A.kicad_sym")(options "")(descr ""))
+  (lib (name "FS8205A")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/FS8205A.kicad_sym")(options "")(descr ""))
+  (lib (name "TTP")(type "KiCad")(uri "${KIPRJMOD}/TTP.kicad_sym")(options "")(descr ""))
+  (lib (name "ul_SN74HC08DR")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/ul_SN74HC08DR.kicad_sym")(options "")(descr ""))
+  (lib (name "CD4043BDR")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/CD4043BDR.kicad_sym")(options "")(descr ""))
+>>>>>>> Stashed changes
 )
