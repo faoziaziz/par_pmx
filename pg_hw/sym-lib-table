@@ -21,6 +21,9 @@
   (lib (name "ul_SN74HC08DR")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/ul_SN74HC08DR.kicad_sym")(options "")(descr ""))
   (lib (name "CD4043BDR")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/CD4043BDR.kicad_sym")(options "")(descr ""))
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
